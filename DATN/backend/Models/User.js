@@ -38,6 +38,7 @@ const userSchema = new mongoose.Schema({
 
     admin:{
         type: Boolean,
+        // bất kỳ usẻ ban đầu đề ko phải admin
         default: false,
     },
 },
