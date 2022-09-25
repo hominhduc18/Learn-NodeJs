@@ -8,6 +8,7 @@ const app = express();
 const cookieParser = require('cookie-parser');
 // khai báo các function ở controller đã được làm 
 //hello world
+//hello 123
 const authRoute = require('./router/auth');
 
 const EmpRoute = require('./router/emp');
