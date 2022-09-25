@@ -7,7 +7,7 @@ const dotenv = require('dotenv');
 const app = express();
 const cookieParser = require('cookie-parser');
 // khai báo các function ở controller đã được làm 
-
+//hello world
 const authRoute = require('./router/auth');
 
 const EmpRoute = require('./router/emp');
